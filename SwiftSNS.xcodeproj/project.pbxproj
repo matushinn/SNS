@@ -3,18 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1327EB1DB7F70387336CC03A /* Pods_SwiftSNSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3B2B842333EFFE677D9770 /* Pods_SwiftSNSTests.framework */; };
+		21F268203504D634A11E4F79 /* Pods_SwiftSNS_SwiftSNSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B98EEE1FC09CDF8BBB2EE7C /* Pods_SwiftSNS_SwiftSNSUITests.framework */; };
+		370F8F8326AEB752004B564B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F8F8226AEB752004B564B /* LoginViewController.swift */; };
+		370F8F8626AEB80F004B564B /* CheckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F8F8526AEB80F004B564B /* CheckModel.swift */; };
+		370F8F8826AEB99E004B564B /* SelectRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F8F8726AEB99E004B564B /* SelectRoomViewController.swift */; };
+		370F8F8A26AEBA78004B564B /* SendDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F8F8926AEBA78004B564B /* SendDBModel.swift */; };
+		370F8F8C26AEC17B004B564B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 370F8F8B26AEC17B004B564B /* GoogleService-Info.plist */; };
 		375E9A7626AEACFA00A07C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E9A7526AEACFA00A07C28 /* AppDelegate.swift */; };
 		375E9A7826AEACFA00A07C28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E9A7726AEACFA00A07C28 /* SceneDelegate.swift */; };
-		375E9A7A26AEACFA00A07C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E9A7926AEACFA00A07C28 /* ViewController.swift */; };
 		375E9A7D26AEACFA00A07C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375E9A7B26AEACFA00A07C28 /* Main.storyboard */; };
 		375E9A7F26AEACFD00A07C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375E9A7E26AEACFD00A07C28 /* Assets.xcassets */; };
 		375E9A8226AEACFD00A07C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375E9A8026AEACFD00A07C28 /* LaunchScreen.storyboard */; };
 		375E9A8D26AEACFD00A07C28 /* SwiftSNSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E9A8C26AEACFD00A07C28 /* SwiftSNSTests.swift */; };
 		375E9A9826AEACFD00A07C28 /* SwiftSNSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E9A9726AEACFD00A07C28 /* SwiftSNSUITests.swift */; };
+		77AA226AC3CEA80D569DE207 /* Pods_SwiftSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7806C0E1C265B3A792C4D4C9 /* Pods_SwiftSNS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F9B57709CB48303E116AB1D /* Pods-SwiftSNS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSNS.release.xcconfig"; path = "Target Support Files/Pods-SwiftSNS/Pods-SwiftSNS.release.xcconfig"; sourceTree = "<group>"; };
+		370F8F8226AEB752004B564B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		370F8F8526AEB80F004B564B /* CheckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckModel.swift; sourceTree = "<group>"; };
+		370F8F8726AEB99E004B564B /* SelectRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomViewController.swift; sourceTree = "<group>"; };
+		370F8F8926AEBA78004B564B /* SendDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDBModel.swift; sourceTree = "<group>"; };
+		370F8F8B26AEC17B004B564B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		375E9A7226AEACFA00A07C28 /* SwiftSNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375E9A7526AEACFA00A07C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		375E9A7726AEACFA00A07C28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		375E9A7926AEACFA00A07C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		375E9A7C26AEACFA00A07C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		375E9A7E26AEACFD00A07C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		375E9A8126AEACFD00A07C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +62,14 @@
 		375E9A9726AEACFD00A07C28 /* SwiftSNSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSNSUITests.swift; sourceTree = "<group>"; };
 		375E9A9926AEACFD00A07C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		375E9AA526AEAD3700A07C28 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3B98EEE1FC09CDF8BBB2EE7C /* Pods_SwiftSNS_SwiftSNSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSNS_SwiftSNSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2CC53B62A5CB5775FB1898 /* Pods-SwiftSNS-SwiftSNSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSNS-SwiftSNSUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftSNS-SwiftSNSUITests/Pods-SwiftSNS-SwiftSNSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58068DD17A4D72E4BF3E2D54 /* Pods-SwiftSNS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSNS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftSNS/Pods-SwiftSNS.debug.xcconfig"; sourceTree = "<group>"; };
+		7806C0E1C265B3A792C4D4C9 /* Pods_SwiftSNS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSNS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3B2B842333EFFE677D9770 /* Pods_SwiftSNSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSNSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09F1A4F63EFF0FC7C099838 /* Pods-SwiftSNSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSNSTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftSNSTests/Pods-SwiftSNSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B606102C79956B6D10746B26 /* Pods-SwiftSNSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSNSTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftSNSTests/Pods-SwiftSNSTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB59CFBF59D712BCBA34AFCD /* Pods-SwiftSNS-SwiftSNSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSNS-SwiftSNSUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftSNS-SwiftSNSUITests/Pods-SwiftSNS-SwiftSNSUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AA226AC3CEA80D569DE207 /* Pods_SwiftSNS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1327EB1DB7F70387336CC03A /* Pods_SwiftSNSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +93,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F268203504D634A11E4F79 /* Pods_SwiftSNS_SwiftSNSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DA19961C225729D590C97E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58068DD17A4D72E4BF3E2D54 /* Pods-SwiftSNS.debug.xcconfig */,
+				2F9B57709CB48303E116AB1D /* Pods-SwiftSNS.release.xcconfig */,
+				4A2CC53B62A5CB5775FB1898 /* Pods-SwiftSNS-SwiftSNSUITests.debug.xcconfig */,
+				CB59CFBF59D712BCBA34AFCD /* Pods-SwiftSNS-SwiftSNSUITests.release.xcconfig */,
+				A09F1A4F63EFF0FC7C099838 /* Pods-SwiftSNSTests.debug.xcconfig */,
+				B606102C79956B6D10746B26 /* Pods-SwiftSNSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		370F8F8426AEB7F7004B564B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				370F8F8526AEB80F004B564B /* CheckModel.swift */,
+				370F8F8926AEBA78004B564B /* SendDBModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		375E9A6926AEACFA00A07C28 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				375E9A8B26AEACFD00A07C28 /* SwiftSNSTests */,
 				375E9A9626AEACFD00A07C28 /* SwiftSNSUITests */,
 				375E9A7326AEACFA00A07C28 /* Products */,
+				2DA19961C225729D590C97E4 /* Pods */,
+				44732B1DB1D5A7064E1EDC0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +148,15 @@
 		375E9A7426AEACFA00A07C28 /* SwiftSNS */ = {
 			isa = PBXGroup;
 			children = (
+				370F8F8426AEB7F7004B564B /* Model */,
 				375E9A7526AEACFA00A07C28 /* AppDelegate.swift */,
 				375E9A7726AEACFA00A07C28 /* SceneDelegate.swift */,
-				375E9A7926AEACFA00A07C28 /* ViewController.swift */,
+				375E9AA726AEB66400A07C28 /* Controller */,
 				375E9A7B26AEACFA00A07C28 /* Main.storyboard */,
 				375E9A7E26AEACFD00A07C28 /* Assets.xcassets */,
 				375E9A8026AEACFD00A07C28 /* LaunchScreen.storyboard */,
 				375E9A8326AEACFD00A07C28 /* Info.plist */,
+				370F8F8B26AEC17B004B564B /* GoogleService-Info.plist */,
 			);
 			path = SwiftSNS;
 			sourceTree = "<group>";
@@ -130,6 +179,25 @@
 			path = SwiftSNSUITests;
 			sourceTree = "<group>";
 		};
+		375E9AA726AEB66400A07C28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				370F8F8226AEB752004B564B /* LoginViewController.swift */,
+				370F8F8726AEB99E004B564B /* SelectRoomViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44732B1DB1D5A7064E1EDC0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7806C0E1C265B3A792C4D4C9 /* Pods_SwiftSNS.framework */,
+				3B98EEE1FC09CDF8BBB2EE7C /* Pods_SwiftSNS_SwiftSNSUITests.framework */,
+				7F3B2B842333EFFE677D9770 /* Pods_SwiftSNSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375E9A9C26AEACFD00A07C28 /* Build configuration list for PBXNativeTarget "SwiftSNS" */;
 			buildPhases = (
+				43239DD22B99EECB7A55D407 /* [CP] Check Pods Manifest.lock */,
 				375E9A6E26AEACFA00A07C28 /* Sources */,
 				375E9A6F26AEACFA00A07C28 /* Frameworks */,
 				375E9A7026AEACFA00A07C28 /* Resources */,
+				7D33454C5DE91678EB6AF27F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375E9A9F26AEACFD00A07C28 /* Build configuration list for PBXNativeTarget "SwiftSNSTests" */;
 			buildPhases = (
+				0B40811691216696975BCE61 /* [CP] Check Pods Manifest.lock */,
 				375E9A8426AEACFD00A07C28 /* Sources */,
 				375E9A8526AEACFD00A07C28 /* Frameworks */,
 				375E9A8626AEACFD00A07C28 /* Resources */,
@@ -172,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375E9AA226AEACFD00A07C28 /* Build configuration list for PBXNativeTarget "SwiftSNSUITests" */;
 			buildPhases = (
+				1E9494860C56DF9AC2FC7556 /* [CP] Check Pods Manifest.lock */,
 				375E9A8F26AEACFD00A07C28 /* Sources */,
 				375E9A9026AEACFD00A07C28 /* Frameworks */,
 				375E9A9126AEACFD00A07C28 /* Resources */,
+				D10D810E5B8722ECBDE6C64C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370F8F8C26AEC17B004B564B /* GoogleService-Info.plist in Resources */,
 				375E9A8226AEACFD00A07C28 /* LaunchScreen.storyboard in Resources */,
 				375E9A7F26AEACFD00A07C28 /* Assets.xcassets in Resources */,
 				375E9A7D26AEACFA00A07C28 /* Main.storyboard in Resources */,
@@ -255,13 +329,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B40811691216696975BCE61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftSNSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E9494860C56DF9AC2FC7556 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftSNS-SwiftSNSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43239DD22B99EECB7A55D407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftSNS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D33454C5DE91678EB6AF27F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftSNS/Pods-SwiftSNS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftSNS/Pods-SwiftSNS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftSNS/Pods-SwiftSNS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D10D810E5B8722ECBDE6C64C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftSNS-SwiftSNSUITests/Pods-SwiftSNS-SwiftSNSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftSNS-SwiftSNSUITests/Pods-SwiftSNS-SwiftSNSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftSNS-SwiftSNSUITests/Pods-SwiftSNS-SwiftSNSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		375E9A6E26AEACFA00A07C28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				375E9A7A26AEACFA00A07C28 /* ViewController.swift in Sources */,
+				370F8F8826AEB99E004B564B /* SelectRoomViewController.swift in Sources */,
+				370F8F8326AEB752004B564B /* LoginViewController.swift in Sources */,
 				375E9A7626AEACFA00A07C28 /* AppDelegate.swift in Sources */,
+				370F8F8A26AEBA78004B564B /* SendDBModel.swift in Sources */,
+				370F8F8626AEB80F004B564B /* CheckModel.swift in Sources */,
 				375E9A7826AEACFA00A07C28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +615,7 @@
 		};
 		375E9A9D26AEACFD00A07C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58068DD17A4D72E4BF3E2D54 /* Pods-SwiftSNS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +635,7 @@
 		};
 		375E9A9E26AEACFD00A07C28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9B57709CB48303E116AB1D /* Pods-SwiftSNS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +655,7 @@
 		};
 		375E9AA026AEACFD00A07C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09F1A4F63EFF0FC7C099838 /* Pods-SwiftSNSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +678,7 @@
 		};
 		375E9AA126AEACFD00A07C28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B606102C79956B6D10746B26 /* Pods-SwiftSNSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +701,7 @@
 		};
 		375E9AA326AEACFD00A07C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2CC53B62A5CB5775FB1898 /* Pods-SwiftSNS-SwiftSNSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +722,7 @@
 		};
 		375E9AA426AEACFD00A07C28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB59CFBF59D712BCBA34AFCD /* Pods-SwiftSNS-SwiftSNSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

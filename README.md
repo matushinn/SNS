@@ -8,3 +8,15 @@ Fire Storeへのデータの送信、受信
 匿名ログインによるユーザーの管理方法
 
 
+
+pod 'Firebase'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+pod 'Firebase/Firestore'
+httpから始まるものを UI IMageViewに貼れるもの
+pod 'SDWebImage', '~> 5.0'
+部屋を簡単に作ってくれるライブラリ
+pod "ViewAnimator"
+ハッシュタグのためのライブラリ
+pod 'ActiveLabel'
+
