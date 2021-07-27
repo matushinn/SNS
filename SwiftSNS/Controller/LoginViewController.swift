@@ -33,6 +33,9 @@ class LoginViewController: UIViewController ,UIImagePickerControllerDelegate,UIN
     
     
     @IBAction func login(_ sender: Any) {
+        if textField.text?.isEmpty == true || profileImageView.image == nil {
+            return
+        }
         //匿名ログイン
         
         Auth.auth().signInAnonymously { result, error in

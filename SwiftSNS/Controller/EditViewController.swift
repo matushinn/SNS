@@ -8,6 +8,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import SDWebImage
 
 class EditViewController: UIViewController {
     
@@ -40,6 +41,12 @@ class EditViewController: UIViewController {
             userImageString = UserDefaults.standard.object(forKey: "userImage") as! String
         }
         
+        profileImageView.sd_setImage(with: URL(string:userImageString), completed: nil)
+        
+        contentImageView.image = passImage
+        userNameLabel.text = userName
+        
+        profileImageView.layer.cornerRadius = 50
         
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -85,6 +92,24 @@ class EditViewController: UIViewController {
         return true
         
     }
+    func searchHashTag(){
+        
+        let hashTagText = textField.text as NSString?
+        do{
+            
+            //切り分ける　ハッシュタグだけ抜き取る
+            let regex = try NSRegularExpression(pattern: "#\\S+", options: [])
+            for match in regex.matches(in: hashTagText! as String, options: [], range: NSRange(location: 0, length: hashTagText!.length)) {
+                
+                let passedData = self.passImage.jpegData(compressionQuality: 0.01)
+                let sendDBModel = SendDBModel(userID: Auth.auth().currentUser!.uid, userName: self.userName, comment: self.textField.text!, userImageString:self.userImageString,contentImageData:passedData!)
+                //必要な分だけ送信する
+                sendDBModel.sendHashTag(hashTag: hashTagText!.substring(with: match.range))
+            }
+        }catch{
+            
+        }
+    }
     
     @IBAction func send(_ sender: Any) {
         //送信
@@ -92,6 +117,7 @@ class EditViewController: UIViewController {
         if textField.text?.isEmpty == true {
             return
         }
+        searchHashTag()
         
         //データを圧縮する
         let passData = passImage.jpegData(compressionQuality: 0.01)

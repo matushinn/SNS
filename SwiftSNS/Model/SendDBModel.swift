@@ -96,4 +96,32 @@ class SendDBModel {
         
         
     }
+    //ハッシュタグを受け入れる関数
+    func sendHashTag(hashTag:String){
+        
+        let imageRef = Storage.storage().reference().child(hashTag).child("\(UUID().uuidString +  String(Date().timeIntervalSince1970)).jpg")
+        
+        
+        imageRef.putData(contentImageData, metadata: nil, completion: { (metadata, error) in
+            
+            if let error = error {
+                print(error)
+                return
+            }
+            
+            
+            imageRef.downloadURL(completion: { (url, error) in
+                if let error = error {
+                    print(error)
+                    return
+                }
+                
+                self.db.collection(hashTag).document().setData(["userID":self.userID as Any,"userName":self.userName as Any,"comment":self.comment as Any,"userImage":self.userImageString as Any,"contentImage":url?.absoluteString as Any,"postDate":Date().timeIntervalSince1970])
+                
+                
+            })
+        })
+        
+        
+    }
 }
