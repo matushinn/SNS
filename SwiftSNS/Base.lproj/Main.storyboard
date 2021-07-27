@@ -166,6 +166,9 @@
                                                     <state key="normal" image="plus">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="openCamera:" destination="59a-0F-Mx2" eventType="touchUpInside" id="WLV-mh-bXF"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -285,10 +288,10 @@
             </objects>
             <point key="canvasLocation" x="4500" y="104"/>
         </scene>
-        <!--View Controller-->
+        <!--Edit View Controller-->
         <scene sceneID="bEK-zx-srD">
             <objects>
-                <viewController id="y37-9B-Dol" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="editVC" id="y37-9B-Dol" customClass="EditViewController" customModule="SwiftSNS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SN3-eB-OZh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,12 +325,22 @@
                                 <state key="normal" title="送信">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="send:" destination="y37-9B-Dol" eventType="touchUpInside" id="qp8-wc-AKU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TCU-NW-xre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="50S-D1-dc9"/>
+                    <connections>
+                        <outlet property="contentImageView" destination="yhk-sb-qAz" id="JGE-lD-8oI"/>
+                        <outlet property="profileImageView" destination="M6M-Zg-Fcu" id="5Ud-ZE-OoX"/>
+                        <outlet property="sendButton" destination="kcY-4L-dqs" id="GWX-qO-jad"/>
+                        <outlet property="textField" destination="eY1-mR-gZF" id="Y2U-QK-iZE"/>
+                        <outlet property="userNameLabel" destination="9xz-Vu-lXF" id="vMe-wI-BBV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DzE-HH-9sY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
