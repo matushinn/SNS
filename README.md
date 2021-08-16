@@ -22,3 +22,6 @@ pod "ViewAnimator"
 ハッシュタグのためのライブラリ
 pod 'ActiveLabel'
 
+## 概要
+![Animated GIF-downsized_large (3)](https://user-images.githubusercontent.com/44314610/129536793-549d4c38-0135-4e64-afc4-53c8c2ff3749.gif)
+
